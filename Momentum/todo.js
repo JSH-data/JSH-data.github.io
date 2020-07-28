@@ -18,7 +18,7 @@ function deleteToDo(event) {
 }
 
 function saveToDos() {
-    localStorage.setItem("TODOS_LS", JSON.stringify(toDos)); // JSON을 사용하여 LOCAlSTORAGE에 저장이가능한 STRING의 형태가 될  수 있게 변환해준다. 
+    localStorage.setItem(TODOS_LS, JSON.stringify(toDos)); // JSON을 사용하여 LOCAlSTORAGE에 저장이가능한 STRING의 형태가 될  수 있게 변환해준다. 
 }
 
 function paintToDo(text) {
