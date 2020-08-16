@@ -1,14 +1,23 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 body{
     background-color: #ecf0f1;
 }
 
 h1 {
     display: flex;
-    color: #34495e;
+    color: skyblue
     /*transition: color 0.5s ease-in-out; 자바스크립트와 연계한 효과 */
 }
 
 .clicked {
+    color: #7f8c8d;
+}
+
+.js-weather {
     color: #7f8c8d;
 }
 
